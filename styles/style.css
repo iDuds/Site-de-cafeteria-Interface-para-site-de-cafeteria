@@ -1,0 +1,354 @@
+
+@import URL('https://use.typekit.net/gwb7gha.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+
+:root {
+    --cor-pricipal: hsl(14.52deg 95.15% 32.35%);
+    --cor-secundaria: hsl(14.32deg 86.27% 20%);
+    --cor-terciaria:  #000;              
+    --cor-quataria:hsl(36 42.86% 93.14%);
+    --cor-quintaria:#ffff;
+    --cor-sextario: hsl(36.67 23.68% 85.1%);
+}
+
+
+
+
+* {   
+    
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+
+.body {
+    margin-bottom: -25%;
+    margin-top: 5%;
+    background-color: var(--cor-pricipal);
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5625rem 3.125rem 0rem; 
+    
+   
+}
+
+
+
+
+
+.logo { 
+    font-family: "century-gothic", sans-serif;
+    font-weight: 600;
+    font-size: 225%;
+    font-style: normal;
+    color:var(--cor-terciaria);
+    padding: 0% 0% 10%;
+    text-decoration: none;
+   
+
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2.1875rem;
+    padding: 1% 1% 10%; 
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 1.125rem;
+    font-style: normal;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+
+
+
+
+
+.main {
+    width: 90%;
+    padding-bottom: 15.625rem;
+    margin: 5vh auto;
+    background-color: var(--cor-quataria);
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+    overflow: hidden; 
+
+
+    background-image: 
+    linear-gradient(to top left, var(--cor-quintaria) 15%, var(--cor-quataria) 65%),
+    radial-gradient(var(--cor-sextario) 25%, transparent 18%);
+
+    background-size: 100% 355%, 1.1875rem 1.1875rem;
+ 
+    background-repeat: no-repeat, repeat;
+}
+
+
+.section{
+    position: relative;
+    min-height: 24.6875rem;
+    overflow: visible;
+
+}
+
+
+
+.text-container {
+    display:grid;
+    position:relative;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+         
+    "subtitulo coffee"
+    "experience experience";
+        
+    
+    align-items:baseline;
+    column-gap: 3.125rem;
+    
+    
+    width: 50%; 
+    z-index: 1;
+
+
+
+
+}
+
+
+
+.subtitulo {
+    grid-area: subtitulo;
+    transform: translateY(-4.0625rem);
+    white-space: nowrap;
+    line-height: 1;
+    padding: 0% 0% 0% 45%;
+   
+      
+
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-size: 4.375rem; 
+    font-style: normal;
+
+    color:var(--cor-secundaria);
+
+
+
+}
+
+
+
+
+
+.coffee{
+    grid-area: coffee;
+    margin:0;
+    line-height: 0.9;
+    padding:  0% 0% 0% 22%;
+
+  
+
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14.1875rem;
+    color:var(--cor-secundaria);
+
+
+
+
+}
+
+
+
+
+.experience{
+    grid-area: experience;
+    margin: 0;
+    font-size: 14.1875rem; 
+    line-height: 0.9;
+    padding: 0% 0% 0% 10%;
+  
+
+
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:var(--cor-secundaria);
+
+
+
+
+
+}
+
+
+.paragrafo-sobre-o-cafe{
+    font-family: "lato", sans-serif;
+    font-weight: 555;
+    font-size: 1.875rem;
+    font-style: normal;
+    color: var(--cor-terciaria);
+  
+   
+    display: flex;  
+    flex-wrap:nowrap;
+    flex-flow: column wrap;
+
+    padding: 11.0625rem 0rem 0rem 5.9375rem;
+
+ 
+}
+
+
+
+.paragrafo-em-destaque{
+    font-family: "century-gothic", sans-serif;
+    font-weight:  655;
+    font-size: 1.875rem;
+    font-style: normal;
+    color: var(--cor-terciaria);
+
+    display: flex;
+    flex-wrap:nowrap;
+    flex-flow: column wrap;
+
+   
+  
+   
+   
+}
+
+
+.coffee-image {
+    width: 125%;
+    height: auto;
+    margin-top: 1.25rem;
+    display: block;
+
+
+    position: absolute;
+    z-index: 2;
+
+    
+
+    top: 8%;
+    
+    left: -10%;
+
+    pointer-events: none;
+    
+
+}
+
+
+.ordernow {
+    content:"OrderNow";
+    background:var(--cor-pricipal);
+    width: 9.6875rem;
+    height: 9.6875rem;
+    position:absolute;
+    
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+    left: 31%;
+    top: 99%;
+     
+
+    z-index: 10;
+
+    transform: rotate(-15deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 3.125rem;
+    font-weight: bold;
+   
+
+      
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-quintaria);
+    border-radius: 1.25rem;
+
+}
+
+
+.ordernow span {
+    line-height: 0.8;
+ 
+}
+
+
+ .ordernow:before{
+     content: "";
+     position:absolute;
+     top: 0;
+     left: 0;
+     height: 9.6875rem;
+     width: 9.6875rem;
+     background: var(--cor-pricipal);
+     border-radius: 1.25rem;
+     z-index: -1;
+     
+    }
+
+
+
+.ordernow:after {
+    content:"";
+    position:absolute;
+    width: 9.6875rem;
+    height: 9.6875rem;
+    top: 0;
+    left: 0;
+    background: var(--cor-pricipal);
+    text-align:center;
+    border-radius: 1.25rem;
+    z-index: -1;
+
+}
+
+
+  
+.ordernow:before {
+    transform: rotate(30deg);
+
+}
+
+
+.ordernow:after {
+    transform: rotate(60deg);
+
+}
+    
+
+
+
+
+
