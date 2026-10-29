@@ -6,7 +6,6 @@ interface de usuário de uma Cáfeteria
 <img width="2988" height="2522" alt="duds_novoprojeto_ (1)" src="https://github.com/user-attachments/assets/d4b289ee-e51b-4652-a9ed-ab930b9a7736" />
 
 ## ✔️ Técnicas utilizas
-
--"HTML"
--"CSS"
--        
+     
+- ``HTML``
+- ``CSS``
