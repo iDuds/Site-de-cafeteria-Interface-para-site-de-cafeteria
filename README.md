@@ -7,6 +7,7 @@ interface de usuário de uma Cáfeteria
 
 ## ✔️ Técnicas utilizas
 
-''HTML''
-''CSS''
-         
+-''HTML''
+
+-''CSS''
+-         
