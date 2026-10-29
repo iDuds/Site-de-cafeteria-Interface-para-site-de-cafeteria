@@ -1,4 +1,5 @@
-<img width="2500" height="1206" alt="Preto e Branco Ilustrada Gato Café" src="https://github.com/user-attachments/assets/b008d177-a55e-4e55-b5a5-a77af38c9ead" />
+<img width="6250" height="3015" alt="Preto e Branco Ilustrada Gato" src="https://github.com/user-attachments/assets/fb8c5584-8d62-410e-a1dc-0fca4cbfd27a" />
+
 
 # ☕ 🤎​ Site de cafeteria
 interface de usuário de uma Cáfeteria 
